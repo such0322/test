@@ -1,0 +1,75 @@
+BackGroundImage: bg_test1.gif
+
+Plugin: 
+	test1_ic: 
+		GroupNames: 
+			- root
+			- ope
+		PluginName: ikemen (test1)
+		FirstMenu: player_search.php
+		MainMenu:
+			appinfo.php:
+				FileName: appinfo.php
+				MenuString: メンテ状態
+				Notes: 
+			site_info.php:
+				FileName: site_info.php
+				MenuString: お知らせ
+				Notes: 
+			player_detail.php:
+				FileName: player_detail.php
+				MenuString: プレイヤー情報
+				Notes: 
+			player_dump.php:
+				FileName: player_dump.php
+				MenuString: dump/restore
+				Notes: 
+			player_search.php:
+				FileName: player_search.php
+				MenuString: プレイヤー検索
+				Notes: 
+			player_stat.php:
+				FileName: player_stat.php
+				MenuString: プレイヤー統計
+				Notes: 
+			penalty.php:
+				FileName: penalty.php
+				MenuString: ペナルティ
+				Notes: 
+			event_result.php:
+				FileName: event_result.php
+				MenuString: イベント
+				Notes: 
+			notify.php:
+				FileName: notify.php
+				MenuString: 通知
+				Notes: 
+			global_bonus_rates.php:
+				FileName: global_bonus_rates.php
+				MenuString: 報酬倍率
+				Notes: 
+
+			mission.php:
+				FileName: mission.php
+				MenuString: mission
+				Notes: 
+			quest.php:
+				FileName: quest.php
+				MenuString: quest
+				Notes: 
+			quest2.php:
+				FileName: quest2.php
+				MenuString: quest2
+				Notes: 
+			otetsudai.php:
+				FileName: otetsudai.php
+				MenuString: otetsudai
+				Notes: 
+			collection.php:
+				FileName: collection.php
+				MenuString: collection
+				Notes: 
+			collection_unlockitem.php:
+				FileName: collection_unlockitem.php
+				MenuString: collection_unlockitem
+				Notes: 

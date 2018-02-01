@@ -1,0 +1,124 @@
+
+/* 旧仕様からの css */
+
+font-family: 'ＭＳ Ｐゴシック", "Osaka－等幅"';
+
+input,select, textarea  {
+	font-family: "ＭＳ ゴシック", "Osaka－等幅";
+	font-size: 12px;
+	line-height:16px;
+	scrollbar-base-color: #EDF3FE; 
+	background-color:#FBFCFF; 
+	border: 1px solid #D9D9D9;
+}
+tr {
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	font-size: 12px;
+}
+button{
+	background-image: url(../images/button.gif);
+	height:16px;
+	line-height:16px;
+	width:100px;
+	border:none;
+	background-color:transparent;
+	font-color:#226AC7;
+}
+input.button{
+	background-image: url(../images/button.gif);
+	height:16px;
+	line-height:16px;
+	width:100px;
+	border:none;
+	background-color:transparent;
+	font-color:#226AC7;
+}
+
+/* #main2 と #trh と #submenu は下位互換用、table.main2 と tr.trh を使う事 */
+#main2 {
+	border: 1px solid #D9D9D9;
+	font-size:12px;
+	line-height:16px;
+	border-collapse: collapse;
+	border-color: #D9D9D9;
+	background-color: #D9D9D9;
+}
+#trh{
+	background-image: url(../images/trh.gif);
+}
+#trh > td {border-right:1px solid gray;border-left:1px solid gray;}
+#trh > th {border-right:1px solid gray;border-left:1px solid gray;}
+#submenu td a {
+	font-size: 12px;
+	color: #666666;
+	line-height: 16px;
+	height:16px;
+	display:block;
+	text-decoration:none;
+}
+
+/* いつものテーブル関連 */
+table.main2 {
+	border: 1px solid #D9D9D9;
+	font-size:12px;
+	line-height:16px;
+	border-collapse: collapse;
+	border-color: #D9D9D9;
+	background-color: #D9D9D9;
+}
+tr.trh{background-image: url(../images/trh.gif);}
+tr.tda{background-image: url(../images/frame_base_r3_c5.gif);}
+tr.tr1{background-color: #EDF3FE;height:20px;}
+tr.tr2{background-color: #ffffff;height:20px;}
+tr.trh > td {border-right:1px solid gray;border-left:1px solid gray;}
+tr.trh > th {border-right:1px solid gray;border-left:1px solid gray;}
+tr.tr1 > td {border-right:1px solid gray;border-left:1px solid gray;}
+tr.tr2 > td {border-right:1px solid gray;border-left:1px solid gray;}
+tr.trselect{background-color: #3D80DF;color: #FFFFFF;height:20px;}
+
+/* メニューボタン関連 */
+.leftmenu a:hover {
+	background-image: url( ../images/menuactive.gif );
+}
+.leftmenu a {
+	font-size: 12px;
+	color: #666666;
+	line-height: 16px;
+	height:16px;
+	display:block;
+	text-decoration:none;
+	background-image: url( ../images/menupassive.gif );
+}
+.leftmenu_active a {
+	font-size: 12px;
+	color: #666666;
+	line-height: 16px;
+	height:16px;
+	display:block;
+	text-decoration:none;
+	background-image: url( ../images/menuactive.gif );
+}
+
+/* タブ関連 */
+table.submenu a {
+	font-size: 12px;
+	color: #666666;
+	line-height: 16px;
+	height:16px;
+	display:block;
+	text-decoration:none;
+}
+
+
+.datetime_clear {
+	color: #a00;
+	padding-left:3px;
+	cursor:pointer;
+	font-weight:bold;
+	font-family:sans-serif
+}
+
+.ngword{color: #FF0000;}
+.error{color: #FF0000;}
+.warning{color: #FF0000;}
+

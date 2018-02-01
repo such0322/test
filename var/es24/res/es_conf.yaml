@@ -1,0 +1,109 @@
+
+# ユーザ側で表示したいタイムゾーン
+timezone:
+	name: Asia/Tokyo
+	label: JST
+
+# プラグイン一覧
+Plugin: 
+	test: 
+		GroupNames: 
+			- root
+		PluginName: test
+		FirstMenu: 
+		#BackGroundImage: bg_d.png
+		MainMenu:
+			test.php:
+				FileName: test.php
+				MenuString: test
+				Notes: test
+				GroupNames: 
+					- root
+	admin:
+		GroupNames:
+			- root
+			- admin
+		PluginName: 管理者用
+		FirstMenu: users.php
+		MainMenu:
+			users.php:
+				FileName: users.php
+				MenuString: ユーザ管理
+				Notes: 管理画面におけるユーザの追加・編集・削除を行なえます。
+			access_log.php:
+				FileName: access_log.php
+				MenuString: アクセスログ
+				Notes: 各管理画面の使用履歴を検索できます。
+	edit:
+		GroupNames: 
+			- root
+			- edit
+		PluginName: 編集
+		FirstMenu: var_edit.php
+		MainMenu:
+			var_edit.php:
+				FileName: var_edit.php
+				MenuString: 変数マスタ編集
+				Notes: 各画面で参照するコード、ID等の編集を行ないます
+			strres_update.php:
+				FileName: strres_update.php
+				MenuString: 文字列マスタ更新
+				Notes: 各画面で表示する文字列のマスタを更新します
+
+	test1_ngp: 
+		GroupNames: 
+			- root
+			- ngp
+		PluginName: NGP標準 (test1)
+		FirstMenu: 
+		MainMenu:
+			user_duration.php:
+				FileName: user_duration.php
+				MenuString: 継続日数
+				Notes: ユーザごとに登録・アクセス・退会日での集計を行います
+			user_duration_stat.php:
+				FileName: user_duration_stat.php
+				MenuString: 継続率集計
+				Notes: 登録日単位での継続率を集計しします
+			steps.php:
+				FileName: steps.php
+				MenuString: 進捗統計
+				Notes: キャラクターごとの進捗状況の統計をとります
+			report.php:
+				FileName: report.php
+				MenuString: 単位時間集計
+				Notes: 時/日/週/月ごとの各種集計結果をまとめて表示します
+				
+			chat.php:
+				FileName: chat.php
+				MenuString: チャットログ
+				Notes: チャットログを表示します
+			realmoney_trade.php:
+				FileName: realmoney_trade.php
+				MenuString: 有料課金通貨
+				Notes: 課金通貨 (有料枠) の増減に関する記録とその集計結果を参照します
+			freemoney.php:
+				FileName: freemoney.php
+				MenuString: 無料課金通貨
+				Notes: 課金通貨 (無料枠) の増減に関する記録とその集計結果を参照します
+			realmoney_payment.php:
+				FileName: realmoney_payment.php
+				MenuString: 決済
+				Notes: 各種決済処理により課金通貨を入手した記録とその集計結果を参照します
+			kakin.php:
+				FileName: kakin.php
+				MenuString: 課金アイテム購入
+				Notes: 課金アイテムの購入履歴を集計したものなどを表示します
+			gacha.php:
+				FileName: gacha.php
+				MenuString: ガチャ
+				Notes: ガチャの履歴を集計したものなどを表示します
+			item_move.php:
+				FileName: item_move.php
+				MenuString: アイテム移動
+				Notes: アイテム移動ログの取り込み結果を検索・参照します
+				
+			log_search_db.php:
+				FileName: log_search_db.php
+				MenuString: ログ調査 (DB)
+				Notes: DBに取り込んだログファイルを参照します

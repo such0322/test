@@ -1,0 +1,231 @@
+
+/*
+	全体的な見た目を設定している css
+	色合いを変えるならこっちを編集すること
+*/
+
+
+
+
+/*
+	背景色、グラデーションは以下で生成
+	http://www.colorzilla.com/gradient-editor/
+*/
+.gbg_header {
+	/* ヘッダ行の背景 */
+	background: rgb(206,220,231); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(206,220,231,1) 0%, rgba(196,196,196,1) 33%, rgba(196,196,196,1) 66%, rgba(206,220,231,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,220,231,1)), color-stop(33%,rgba(196,196,196,1)), color-stop(66%,rgba(196,196,196,1)), color-stop(100%,rgba(206,220,231,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(196,196,196,1) 33%,rgba(196,196,196,1) 66%,rgba(206,220,231,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(196,196,196,1) 33%,rgba(196,196,196,1) 66%,rgba(206,220,231,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(196,196,196,1) 33%,rgba(196,196,196,1) 66%,rgba(206,220,231,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(196,196,196,1) 33%,rgba(196,196,196,1) 66%,rgba(206,220,231,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#cedce7',GradientType=0 ); /* IE6-9 */
+}
+.gbg_header_kouho {
+	/* ヘッダ行の背景の候補、使ってない、使うなら名前を変える */
+	background: rgb(168,173,172); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E4YWRhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM3JSIgc3RvcC1jb2xvcj0iIzY3NzU3MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYzJSIgc3RvcC1jb2xvcj0iIzcwN2Y3YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhMWFkYWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(168,173,172,1) 0%, rgba(103,117,114,1) 37%, rgba(112,127,124,1) 63%, rgba(161,173,171,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(168,173,172,1)), color-stop(37%,rgba(103,117,114,1)), color-stop(63%,rgba(112,127,124,1)), color-stop(100%,rgba(161,173,171,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(168,173,172,1) 0%,rgba(103,117,114,1) 37%,rgba(112,127,124,1) 63%,rgba(161,173,171,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(168,173,172,1) 0%,rgba(103,117,114,1) 37%,rgba(112,127,124,1) 63%,rgba(161,173,171,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(168,173,172,1) 0%,rgba(103,117,114,1) 37%,rgba(112,127,124,1) 63%,rgba(161,173,171,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(168,173,172,1) 0%,rgba(103,117,114,1) 37%,rgba(112,127,124,1) 63%,rgba(161,173,171,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8adac', endColorstr='#a1adab',GradientType=0 ); /* IE6-8 */
+}
+.gbg_header2 {
+	/* メニュー行の背景 */
+	background: rgb(183,222,237); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(183,222,237,1) 0%, rgba(69,188,224,1) 33%, rgba(71,188,224,1) 67%, rgba(183,222,237,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(183,222,237,1)), color-stop(33%,rgba(69,188,224,1)), color-stop(67%,rgba(71,188,224,1)), color-stop(100%,rgba(183,222,237,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(183,222,237,1) 0%,rgba(69,188,224,1) 33%,rgba(71,188,224,1) 67%,rgba(183,222,237,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(183,222,237,1) 0%,rgba(69,188,224,1) 33%,rgba(71,188,224,1) 67%,rgba(183,222,237,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(183,222,237,1) 0%,rgba(69,188,224,1) 33%,rgba(71,188,224,1) 67%,rgba(183,222,237,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(183,222,237,1) 0%,rgba(69,188,224,1) 33%,rgba(71,188,224,1) 67%,rgba(183,222,237,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-9 */
+}
+
+.gbg_btn_a {
+	/* ボタン、アクティブ状態の背景 */
+	background: rgb(148,247,246); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(148,247,246,1) 1%, rgba(55,182,255,1) 48%, rgba(74,148,218,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(148,247,246,1)), color-stop(48%,rgba(55,182,255,1)), color-stop(100%,rgba(74,148,218,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(148,247,246,1) 1%,rgba(55,182,255,1) 48%,rgba(74,148,218,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(148,247,246,1) 1%,rgba(55,182,255,1) 48%,rgba(74,148,218,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(148,247,246,1) 1%,rgba(55,182,255,1) 48%,rgba(74,148,218,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(148,247,246,1) 1%,rgba(55,182,255,1) 48%,rgba(74,148,218,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94f7f6', endColorstr='#4a94da',GradientType=0 ); /* IE6-9 */
+}
+
+.gbg_btn_b {
+	/* ボタン、非アクティブ状態の背景 */
+	background: rgb(245,246,246); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(181,182,188,1) 50%, rgba(245,246,246,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(50%,rgba(181,182,188,1)), color-stop(100%,rgba(245,246,246,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(181,182,188,1) 50%,rgba(245,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(181,182,188,1) 50%,rgba(245,246,246,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(181,182,188,1) 50%,rgba(245,246,246,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(181,182,188,1) 50%,rgba(245,246,246,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+.es2_header {
+	/* 一番上のヘッダ */
+	width: 100%;
+	margin: 1px;
+	padding: 1px;
+	border: solid 1px silver;
+	border-radius: 5px;
+	box-shadow: 0 0 1em #888;
+	color: white;
+}
+.es2_header > a{
+	color: white;
+	text-decoration: none;
+}
+.es2_header2 {
+	/* メニューとサブメニュー (タブっぽいやつ) のライン */
+	min-width: 510px;
+	width:100%;
+	margin: 1px;
+	border: ridge 2px #38d;
+	border-radius: 5px;
+	box-shadow: 0 0 1em #888;
+	
+	height: auto;
+}
+
+.es2_mainstage {
+	/* プラグインの出力する内容が乗るあたり */
+	min-height:300px;
+	min-width: 510px;
+	width:100%;
+	margin:1px;
+	box-shadow: 0 0 1em #888;
+/*
+	background-color: #f3f8ff;
+*/
+	background-color: rgba(255,255,255,0.9);
+	border: outset 1px blue;
+	border-radius: 5px;
+}
+.es2_mainstage > div {
+	margin:3px;
+}
+
+.es2_footer {
+	/* 一番下のフッタ */
+	width:100%;
+	box-shadow: 0 0 1em #888;
+	background-color: #def;
+	border: outset 1px blue;
+	border-radius: 5px;
+	
+	margin:1px 1px 1px 1px;
+	padding:1px 0px 1px 0px;
+	
+	font-size:10px;
+	color: #888;
+	height: 12px;
+	vertical-align:bottom;
+}
+
+
+
+/* 左上のメニューリスト関連 */
+.es2_menu {
+	width: 20%;
+	max-width: 160px;
+	max-height: 120px;
+	border-radius: 3px 0 0 3px;
+	overflow-y: scroll; 
+	padding: 5px;
+/*	background-color: rgba(255,255,255,0.8);*/
+	
+	font-size:12px;
+	
+	text-align: center;
+}
+.es2_menubtn {
+	text-align: center;
+	width:80%;
+	border: solid 1px gray;
+	border-radius: 8px;
+	font-size:12px;
+	margin:0px 2px 8px 2px;
+	padding:1px 8px 1px 8px;
+}
+.es2_menu > a { color: #333; text-decoration: none; }
+.es2_menu > a:hover { text-decoration: underline; color : #000; }
+
+/* 上のタブっぽいメニュー関連 */
+.es2_submenus    {
+	width: 78%;
+	min-width: 340px;
+	border: none;
+	
+	font-size:12px;
+}
+.es2_submenubtn {
+	height:16px;
+	
+	margin:0 2px 1px 2px;
+	padding:1px 3px 1px 3px;
+	
+	border: solid 1px #0f60c3;
+	border-radius: 0px 0px 5px 5px;
+	vertical-align:bottom;
+	float:left;
+}
+.es2_submenus > a { color: #333; text-decoration: none; }
+.es2_submenus > a:hover { text-decoration: underline; color : #000; }
+.es2_submenus_active {
+	background: rgba(92,195,232,0.8);
+}
+.es2_submenunote {
+	width: 95%;
+	
+	margin:1em;
+	padding:3px;
+	
+	background: rgba(216,216,255,0.8);
+	box-shadow: 0 0 1em #888;
+	border: solid 1px #36e;
+	border-radius: 5px;
+}
+
+/* ログインフォーム */
+.es2_loginform {
+	width: 40%;
+	
+	background: rgba(216,216,255,0.8);
+	
+	border: solid 1px #36e;
+	border-radius: 5px;
+	
+	padding:1em;
+}
+
+
+
+/* 以下そのた全体的な設定 */
+body {
+	min-width: 610px;
+}
+img {
+	border: none;
+}
+/*
+body {
+	background: #f8f8f8;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000;
+}
+*/
+

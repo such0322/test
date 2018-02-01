@@ -1,0 +1,83 @@
+---
+"_comment":
+  "_comment": "各変数の説明"
+  "pftype": "プラットフォーム区分"
+  "item_id": "アイテムID"
+  "steps": "進捗段階"
+  "server_id": "サーバID"
+  "action_type": "アイテム移動タイプ"
+  "gacha_type": "ガチャ種別"
+  "gacha_id": "ガチャのID"
+  "drop_id": "ガチャの出力品"
+  "chat_type": "チャット種別"
+  "event_id": "イベントID"
+  "event_steps": "イベント進捗段階"
+  "additemext": >
+    アイテム付与CGIの追加パラメータ
+  "goods_id": "課金通貨購入手段(商品ID)"
+  "goods_group": >
+    商品 (課金通貨購入手段)
+    のグループ
+  "penalty_pty": "ペナルティ実施期間"
+  "penalty_state": >
+    ペナルティを受けたアカウントの会員状態
+  "version": "バージョン"
+"pftype":
+  "100": "Android"
+  "200": "iOS"
+  "300": "doja"
+  "400": "windows"
+"item_id":
+  - "dummy"
+"server_id":
+  - "dummy"
+"steps":
+  "1000": "dummy"
+"action_type":
+  - "dummy"
+"gacha_type":
+  - "dummy"
+"gacha_id":
+  - "dummy"
+"drop_id":
+  - "dummy"
+"chat_type":
+  - "dummy"
+"event_id":
+  - "dummy"
+"event_steps":
+  - "dummy"
+"additemext":
+  - "dummy"
+"goods_id":
+  - "dummy"
+"goods_group":
+  - "dummy"
+"penalty_pty":
+  - "会員状態を確認する"
+  - "１日 (24時間) 停止する"
+  - "３日 (72時間) 停止する"
+  - "７日 (168時間) 停止する"
+  - "永久に停止する"
+"penalty_state":
+  "0": "正規会員"
+  "-1": "無効な状態"
+  "-2": "会員で永久停止"
+  "-4": "ゲスト"
+  "-5": >
+    会員登録禁止(退会後の再入会禁止期間中)
+  "-10": "会員で 1 日停止中"
+  "-11": "会員で 3 日停止中"
+  "-12": "会員で 7 日停止中"
+  "-13": "ゲストで 1 日停止中"
+  "-14": "ゲストで 1 日停止中"
+  "-15": "ゲストで 1 日停止中"
+  "-16": "ゲストで 1 日停止中"
+"version":
+  "300": "2.0.0"
+  "310": "2.0.1"
+  "320": "2.0.2"
+  "330": "2.0.3"
+  "340": "2.0.4"
+  "350": "2.0.5"
+  "360": "2.0.6"
